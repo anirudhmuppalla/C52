@@ -1,0 +1,65 @@
+h1{
+    color:#00F
+}
+*{
+   /*border: solid;*/
+    color:#00F;
+    background-color:#BDB76B;
+}
+.header{
+    background-color: #8A2BD2;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 100px;
+}
+.item{
+    background-color:#CF1020;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 400px;
+    margin-left: 500px;
+}
+.images{
+    background-color:#1E90FF;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-left:300px;
+
+}
+.images h3{
+  position: absolute;
+  text-align: center;
+  transform: translate(50%,50%);
+  opacity: 0;  
+  font-style: italic;
+  font: bold;
+  font-family:'Courier New';
+  font-size:large;
+}
+.images:hover h3{
+    opacity: 1;
+}
+.images:hover img{
+    opacity: 0.33;
+}
+
+.footer{
+    background-color:#E9967A;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    border: solid;
+    border-radius: 100px;
+}
+p{
+    text-align: center;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: white;
+}
